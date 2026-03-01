@@ -1,5 +1,31 @@
 {
-  "header": {
-    "title": "Yolman OTO"
+  "nav": {
+    "home": "Home",
+    "our-cars": "Our Cars",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "badge": "Luxury Cars",
+      "title": "Yolman oto – Car Sales and Car Financing in Turkey and Oman",
+      "subtitle": "Buy reliable cars at competitive prices with flexible financing plans",
+      "description": "We provide integrated solutions including: cash car sales, car financing up to 24 months, lease-to-own options with clear terms, imported cars, and auctions",
+      "primaryButton": "Browse Cars",
+      "secondaryButton": "Contact Us",
+      "features": {
+        "instantFinance": "Instant Financing",
+        "upTo24Months": "Up to 24 Months",
+        "trusted": "Trusted & Guaranteed",
+        "customers": "+10,000 Customers",
+        "locations": "Turkey · Oman",
+        "internationalShipping": "International Shipping"
+      },
+      "stats": {
+        "cars": "Cars",
+        "customer": "Customer",
+        "satisfaction": "Customer Satisfaction"
+      }
+    }
   }
 }

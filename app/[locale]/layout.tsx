@@ -31,7 +31,7 @@ export default async function RootLayout({
       >
         <ScrollToTop />
         <Header dict={dict} locale={locale as Locale} />
-        <main className="grow">{children}</main>
+        <main className="grow mt-[72px]">{children}</main>
         <Footer dict={dict} locale={locale as Locale} />
       </body>
     </html>

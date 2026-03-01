@@ -3,8 +3,13 @@
 :root {
   --primary-color: #091931;
   --background-color: #0b1f3f;
-  --secondary-color: #511764;
   --accent-color: #0d223f;
+
+  /* Gold accent palette — luxury automotive */
+  --gold: #c9a84c;
+  --gold-dark: #8b6914;
+  --gold-light: #e8c96a;
+  --silver: #c0c0c0;
 }
 
 html {
@@ -18,7 +23,7 @@ body {
 }
 
 ::selection {
-  background-color: white;
+  background-color: var(--gold);
   color: var(--primary-color);
 }
 
@@ -31,9 +36,9 @@ body {
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #7ea5df;
+  background: var(--gold);
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #7ea5df;
+  background: var(--gold-light);
 }
