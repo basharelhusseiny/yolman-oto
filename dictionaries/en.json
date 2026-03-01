@@ -175,5 +175,45 @@
         { "value": "0%", "label": "Hidden Fees" }
       ]
     }
+  },
+  "contact": {
+    "header": {
+      "title": "Contact Us",
+      "subtitle": "We are here to answer all your questions. Feel free to contact us to learn more about our services, buying and financing cars in both Turkey and Oman. Our team is ready to provide the best solutions for you."
+    },
+    "info": {
+      "addressTitle": "Our Locations",
+      "address1": "Istanbul, Turkey",
+      "address2": "Muscat, Oman",
+      "phoneTitle": "Call Us",
+      "emailTitle": "Email Us",
+      "socialsTitle": "Other Ways to Connect"
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "subtitle": "Fill out the form below and one of our representatives will contact you as soon as possible.",
+      "nameLabel": "Full Name",
+      "namePlaceholder": "John Doe",
+      "phoneLabel": "Phone Number",
+      "phonePlaceholder": "+90 (555) 000 00 00",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "example@email.com",
+      "messageLabel": "Your Message",
+      "messagePlaceholder": "How can we help you? Write your inquiry here...",
+      "submitButton": "Send Message",
+      "loading": "Sending...",
+      "success": "Message sent successfully!",
+      "responseNote": "We respond within 24 hours."
+    },
+    "stats": {
+      "cars": "Cars Available",
+      "customers": "Happy Customers",
+      "satisfaction": "Satisfaction Rate"
+    },
+    "testimonial": {
+      "quote": "Got my dream SUV in less than a week. Transparent, fast, and incredibly professional from start to finish.",
+      "author": "Ahmed K.",
+      "location": "Muscat, Oman"
+    }
   }
 }
