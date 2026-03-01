@@ -8,7 +8,7 @@
   "home": {
     "hero": {
       "badge": "Luxury Cars",
-      "title": "Yolman oto – Car Sales and Car Financing in Turkey and Oman",
+      "title": "Yolman oto – Car Sales and Financing in Turkey and Oman",
       "subtitle": "Buy reliable cars at competitive prices with flexible financing plans",
       "description": "We provide integrated solutions including: cash car sales, car financing up to 24 months, lease-to-own options with clear terms, imported cars, and auctions",
       "primaryButton": "Browse Cars",
@@ -26,6 +26,137 @@
         "customer": "Customer",
         "satisfaction": "Customer Satisfaction"
       }
+    },
+    "whyChooseUs": {
+      "title": "Why Choose Yolman oto?",
+      "description": "We believe buying a car should be a clear and well-informed decision. That’s why we provide a transparent experience built on detailed inspections and clear contracts to ensure your peace of mind at every step.",
+      "points": [
+        {
+          "title": "Full Transparency in Vehicle Information",
+          "text": "We provide accurate and complete details about each vehicle, including specifications, technical condition, and usage history when available."
+        },
+        {
+          "title": "Clear Disclosure of Paint & Replacements",
+          "text": "Any repainting or part replacements are clearly disclosed with no hidden information."
+        },
+        {
+          "title": "Comprehensive Technical Inspection",
+          "text": "Every vehicle undergoes a thorough technical inspection to ensure safety and quality before being offered for sale."
+        },
+        {
+          "title": "Clear & Fair Contracts",
+          "text": "We use straightforward contracts that protect the rights of all parties without hidden terms."
+        },
+        {
+          "title": "Expertise in Turkey & Oman Markets",
+          "text": "Deep understanding of customer needs and market dynamics in Istanbul, Muscat, and other major cities."
+        },
+        {
+          "title": "Professional After-Sales Support",
+          "text": "We maintain ongoing communication and support even after the purchase is completed."
+        }
+      ],
+      "footerNote": "Our goal is for you to buy your car with confidence and complete peace of mind"
+    },
+    "carCategories": {
+      "title": "Available Car Types for Sale in Turkey & Oman",
+      "description": "We offer a carefully selected range of vehicles to suit different needs and budgets — whether for daily commuting, family use, or those seeking luxury and performance.",
+      "categories": {
+        "economy": {
+          "title": "Economy Cars",
+          "description": "The ideal choice for daily use in cities like Istanbul and Muscat.",
+          "features": [
+            "Low fuel consumption",
+            "Affordable pricing",
+            "Reasonable maintenance costs",
+            "Perfect for city driving"
+          ],
+          "keywords": [
+            "Economy cars for sale in Turkey",
+            "Affordable cars in Oman"
+          ]
+        },
+        "family": {
+          "title": "Family Cars",
+          "description": "Designed for families and long trips with enhanced comfort and safety.",
+          "features": [
+            "Spacious interior",
+            "Modern safety systems",
+            "Comfortable driving experience",
+            "Large cargo capacity"
+          ],
+          "keywords": [
+            "Family cars for sale in Oman",
+            "Family cars installment in Turkey"
+          ]
+        },
+        "suv": {
+          "title": "SUV & Crossover Vehicles",
+          "description": "Highly demanded in both Oman and Turkey for their strength and elevated driving position.",
+          "features": [
+            "Higher ground clearance",
+            "Strong road stability",
+            "Advanced features",
+            "Suitable for various terrains"
+          ],
+          "keywords": ["SUV for sale in Muscat", "SUV installment in Turkey"]
+        },
+        "midLuxury": {
+          "title": "Mid-Range & Luxury Cars",
+          "description": "For those seeking premium performance and advanced features.",
+          "features": [
+            "Modern design",
+            "Advanced safety systems",
+            "Fully equipped models",
+            "Powerful performance"
+          ]
+        },
+        "importAuction": {
+          "title": "Imported & Auction Cars",
+          "description": "We provide imported and auction vehicles at competitive prices with full transparency and inspection.",
+          "sources": ["Dubai", "USA", "South Korea"],
+          "features": [
+            "Comprehensive inspection",
+            "Transparent vehicle condition",
+            "Below-market prices at times",
+            "Wide selection of models"
+          ]
+        }
+      }
+    },
+    "financingSection": {
+      "title": "Financing & Lease-to-Own Solutions",
+      "description": "We offer flexible financing options to help you own your car easily and securely in Turkey and Oman, with clear contracts and fast procedures.",
+      "image": {
+        "src": "/logo/yolman-section-img.jpeg",
+        "alt": "Car financing in Turkey and Oman"
+      },
+      "financing": {
+        "title": "Car Financing in Turkey & Oman",
+        "points": [
+          "Reasonable down payment options",
+          "Installment periods up to 24 months",
+          "Clear and transparent contracts",
+          "Fast eligibility approval",
+          "Simple and hassle-free procedures"
+        ],
+        "cta": "Calculate Your Installment Now"
+      },
+      "leaseToOwn": {
+        "title": "Lease-to-Own System",
+        "description": "A flexible system that allows you to own the car after a defined contractual period with clear terms.",
+        "points": [
+          "Clear contract",
+          "Transparent terms",
+          "Ownership transfer after contract completion",
+          "Flexible contract duration options"
+        ]
+      },
+      "stats": [
+        { "value": "24", "label": "Months Max" },
+        { "value": "Fast", "label": "Approval" },
+        { "value": "0%", "label": "Hidden Fees" }
+      ]
     }
   }
 }

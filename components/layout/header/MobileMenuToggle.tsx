@@ -10,7 +10,7 @@ const MobileMenuToggle = ({ isOpen, onClose }: MobileMenuToggleProps) => {
     <button
       onClick={() => onClose(!isOpen)}
       aria-label={isOpen ? "Close menu" : "Open menu"}
-      className="relative flex flex-col justify-center items-center w-10 h-10 rounded-xl bg-white/10 hover:bg-white/20 border border-white/10 hover:border-[#cc0075]/50 transition-all duration-300 cursor-pointer group"
+      className="relative flex flex-col justify-center items-center w-10 h-10 rounded-xl bg-white/10 hover:bg-white/20 border border-white/10 hover:border-[#C9A84C]/50 transition-all duration-300 cursor-pointer group"
     >
       <span
         className={`block w-5 h-0.5 bg-white rounded-full transition-all duration-300 ${

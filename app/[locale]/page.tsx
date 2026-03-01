@@ -1,4 +1,9 @@
-import HeroSection from "@/components/pages/home/HeroSection";
+import {
+  CarCategoriesSection,
+  FinancingSection,
+  HeroSection,
+  WhyChooseUsSection,
+} from "@/components/pages/home";
 import { getDictionary } from "@/dictionaries";
 import { Locale } from "@/types/constants";
 
@@ -13,6 +18,9 @@ const HomePage = async ({
   return (
     <div>
       <HeroSection dict={dict} />
+      <WhyChooseUsSection dict={dict} />
+      <FinancingSection dict={dict} />
+      <CarCategoriesSection dict={dict} />
     </div>
   );
 };

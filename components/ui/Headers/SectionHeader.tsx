@@ -1,34 +1,40 @@
-import { SectionHeaderProps } from "@/types/ui";
+import { motion } from "framer-motion";
+
+interface SectionHeaderProps {
+  isInView?: boolean;
+  title: string;
+  description: string;
+}
 
 const SectionHeader = ({
-  children,
+  isInView,
   title,
   description,
 }: SectionHeaderProps) => {
   return (
-    <div className="relative overflow-hidden mb-16">
-      <div className="relative flex flex-col items-center text-center gap-3 max-w-3xl mx-auto px-4">
-        {/* Icon decoration */}
-        <div className="flex items-center gap-3">
-          <div className="w-14 h-1 bg-linear-to-r from-transparent to-[#cc0075]"></div>
-          <div className="relative">{children}</div>
-          <div className="w-14 h-1 bg-linear-to-l from-transparent to-[#cc0075]"></div>
-        </div>
+    <motion.div
+      initial={{ opacity: 0, y: 30 }}
+      animate={isInView ? { opacity: 1, y: 0 } : {}}
+      transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
+      className="text-center mb-14"
+    >
+      {/* Title */}
+      <h2 className="text-3xl sm:text-4xl md:text-5xl font-black pb-5 bg-linear-to-r from-[#E8C96A] via-[#C9A84C] to-[#d6cbaf] text-transparent bg-clip-text">
+        {title}
+      </h2>
 
-        {/* Main heading */}
-        <h2 className="py-2 text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight bg-linear-to-r from-[#cc0075] via-[#f00c8e] to-[#cc0075] bg-clip-text text-transparent">
-          {title}
-        </h2>
+      {/* Description */}
+      <p className="text-gray-300 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto font-light">
+        {description}
+      </p>
 
-        {/* Subheading */}
-        <p className="text-base md:text-lg text-[#cc0075] max-w-2xl leading-relaxed font-semibold">
-          {description}
-        </p>
-
-        {/* Bottom accent line */}
-        <div className="w-24 h-1 bg-linear-to-r from-[#cc0075] via-[#511764] to-[#cc0075] rounded-full"></div>
+      {/* Decorative underline */}
+      <div className="flex items-center justify-center gap-3 mt-6">
+        <div className="w-20 h-0.5 bg-[#C9A84C]/40" />
+        <div className="w-3 h-3 rounded-full bg-[#C9A84C] animate-pulse" />
+        <div className="w-20 h-0.5 bg-[#C9A84C]/40" />
       </div>
-    </div>
+    </motion.div>
   );
 };
 
