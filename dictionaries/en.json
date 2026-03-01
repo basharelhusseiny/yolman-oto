@@ -5,6 +5,23 @@
     "about": "About",
     "contact": "Contact"
   },
+  "footer": {
+    "description": "Your ultimate destination for buying luxury and reliable cars in Turkey and Oman with competitive prices and flexible financing plans.",
+    "links": {
+      "title": "Quick Links"
+    },
+    "contactInfo": {
+      "title": "Contact & Location",
+      "address": "Istanbul, Turkey | Muscat, Oman",
+      "phone": "+90 555 123 4567",
+      "email": "info@yolman-oto.com"
+    },
+    "socials": "Follow Us",
+    "rights": "© 2026 Yolman oto. All rights reserved.",
+    "premiumAutoDeals": "Premium Auto Deals",
+    "turkeyOmanTrustedCarPartner": "Turkey & Oman Trusted Car Partner",
+    "developedBy": "Developed by Yaqut Media"
+  },
   "home": {
     "hero": {
       "badge": "Luxury Cars",

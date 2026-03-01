@@ -30,10 +30,10 @@ const Header = ({ dict, locale }: DictProps) => {
   return (
     <>
       <header
-        className={`fixed top-0 left-0 right-0 z-50 h-[72px] transition-all duration-300 ${
+        className={`fixed top-0 left-0 right-0 z-50 h-[72px] transition-all duration-500 ease-in-out ${
           scrolled
-            ? "bg-[#091931]/95 backdrop-blur-md shadow-[0_2px_20px_rgba(0,0,0,0.4)] border-b border-white/5"
-            : "bg-[#091931]"
+            ? "bg-[#060E1C]/50 backdrop-blur-xl shadow-[0_4px_30px_rgba(0,0,0,0.5)] border-b border-[#C9A84C]/50"
+            : "bg-[#091a35] border-b border-[#C9A84C]/50"
         }`}
       >
         <div className="container mx-auto h-full px-4 sm:px-6 flex items-center justify-between gap-4">
