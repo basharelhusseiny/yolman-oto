@@ -215,5 +215,49 @@
       "author": "Ahmed K.",
       "location": "Muscat, Oman"
     }
+  },
+  "aboutPage": {
+    "intro": {
+      "title": "About Us | Car Sales Company in Turkey & Oman",
+      "description": "Yolman oto operates in the automotive market in Turkey and the Sultanate of Oman, focusing on delivering a safe and professional car-buying experience built on transparency and trust. We aim to simplify the car purchasing process by providing accurate information, comprehensive inspections, and flexible options that suit different needs and budgets."
+    },
+    "visionMission": {
+      "vision": {
+        "title": "Our Vision",
+        "text": "To become one of the leading car sales companies in Turkey and Oman by delivering a transparent and secure purchasing experience that builds long-term customer trust."
+      },
+      "mission": {
+        "title": "Our Mission",
+        "text": "To provide carefully selected vehicles with clear data, thorough inspections, and contracts that protect all parties, while offering flexible solutions including cash purchases, financing, and lease-to-own options."
+      }
+    },
+    "values": {
+      "title": "Our Values",
+      "items": [
+        "Transparency in presenting full vehicle details",
+        "Professionalism in customer service and communication",
+        "Security in procedures and contracts",
+        "Commitment to honesty and quality",
+        "Customer satisfaction as a top priority"
+      ]
+    },
+    "whyUs": {
+      "title": "Why Yolman oto?",
+      "points": [
+        "Trusted car sales company with a strong reputation",
+        "Wide variety of options for different customer needs",
+        "Complete transparency in vehicle data and condition",
+        "Extensive experience in Turkey and Oman markets",
+        "Professional support before and after the sale"
+      ]
+    },
+    "markets": {
+      "title": "Markets We Operate In",
+      "countries": [
+        "Turkey (Istanbul and major cities)",
+        "Sultanate of Oman (Muscat and other regions)"
+      ],
+      "description": "We serve customers in both markets with a deep understanding of local demand, regulations, and purchasing procedures in each country."
+    }
   }
 }
