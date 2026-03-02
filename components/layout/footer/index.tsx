@@ -104,9 +104,9 @@ const Footer = ({ dict }: DictProps) => {
           <div className="lg:col-span-5 flex flex-col gap-7">
             <Link href="/" className="inline-block w-fit">
               <Image
-                src="/logo/yolman-logo.jpeg"
+                src="/logo/yolman-oto-removebg.png"
                 alt="Yolman Logo"
-                width={130}
+                width={120}
                 height={55}
                 className="h-auto w-auto object-contain"
                 style={{

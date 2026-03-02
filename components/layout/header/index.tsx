@@ -44,7 +44,7 @@ const Header = ({ dict, locale }: DictProps) => {
             onClick={() => setIsMobileMenuOpen(false)}
           >
             <Image
-              src="/logo/yolman-logo.jpeg"
+              src="/logo/yolman-oto-removebg.png"
               alt="Yolman Logo"
               width={60}
               height={50}

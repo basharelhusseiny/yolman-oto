@@ -13,7 +13,7 @@
     "contactInfo": {
       "title": "Contact & Location",
       "address": "Istanbul, Turkey | Muscat, Oman",
-      "phone": "+90 555 123 4567",
+      "phone": "+968 9337 8786",
       "email": "info@yolman-oto.com"
     },
     "socials": "Follow Us",
@@ -195,7 +195,7 @@
       "nameLabel": "Full Name",
       "namePlaceholder": "John Doe",
       "phoneLabel": "Phone Number",
-      "phonePlaceholder": "+90 (555) 000 00 00",
+      "phonePlaceholder": "+968 9337 8786",
       "emailLabel": "Email Address",
       "emailPlaceholder": "example@email.com",
       "messageLabel": "Your Message",
@@ -257,6 +257,23 @@
         "Sultanate of Oman (Muscat and other regions)"
       ],
       "description": "We serve customers in both markets with a deep understanding of local demand, regulations, and purchasing procedures in each country."
+    }
+  },
+  "ourCars": {
+    "header": {
+      "badge": "Our Fleet",
+      "title": "Available Portfolio",
+      "subtitle": "Discover our curated collection of premium vehicles, available with flexible financing options across Turkey and Oman."
+    },
+    "filters": {
+      "all": "All Cars",
+      "geely": "Geely",
+      "renault": "Renault",
+      "kia": "Kia",
+      "hyundai": "Hyundai",
+      "nissan": "Nissan",
+      "toyota": "Toyota",
+      "mitsubishi": "Mitsubishi"
     }
   }
 }
