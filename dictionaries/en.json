@@ -80,6 +80,7 @@
       "description": "We offer a carefully selected range of vehicles to suit different needs and budgets — whether for daily commuting, family use, or those seeking luxury and performance.",
       "categories": {
         "economy": {
+          "img": "/icons/icon-4.jpeg",
           "title": "Economy Cars",
           "description": "The ideal choice for daily use in cities like Istanbul and Muscat.",
           "features": [
@@ -94,6 +95,7 @@
           ]
         },
         "family": {
+          "img": "/icons/icon-5.jpeg",
           "title": "Family Cars",
           "description": "Designed for families and long trips with enhanced comfort and safety.",
           "features": [
@@ -108,6 +110,7 @@
           ]
         },
         "suv": {
+          "img": "/icons/icon-3.jpeg",
           "title": "SUV & Crossover Vehicles",
           "description": "Highly demanded in both Oman and Turkey for their strength and elevated driving position.",
           "features": [
@@ -119,6 +122,7 @@
           "keywords": ["SUV for sale in Muscat", "SUV installment in Turkey"]
         },
         "midLuxury": {
+          "img": "/icons/icon-2.jpeg",
           "title": "Mid-Range & Luxury Cars",
           "description": "For those seeking premium performance and advanced features.",
           "features": [
@@ -129,6 +133,7 @@
           ]
         },
         "importAuction": {
+          "img": "/icons/icon-1.jpeg",
           "title": "Imported & Auction Cars",
           "description": "We provide imported and auction vehicles at competitive prices with full transparency and inspection.",
           "sources": ["Dubai", "USA", "South Korea"],

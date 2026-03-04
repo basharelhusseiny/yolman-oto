@@ -3,18 +3,8 @@
 import { SectionHeader } from "@/components/ui";
 import { DictProps } from "@/types/constants";
 import { motion, useInView, Variants } from "framer-motion";
-import { Wallet, Users, Mountain, Sparkles, Gavel } from "lucide-react";
 import { useRef } from "react";
 import CategoryCard from "./CategoryCard";
-
-const CATEGORY_ICONS = {
-  economy: Wallet,
-  family: Users,
-  suv: Mountain,
-  midLuxury: Sparkles,
-  importAuction: Gavel,
-} as const;
-
 // Visual accent color per category — adds personality
 const CATEGORY_ACCENTS: Record<string, string> = {
   economy: "#60A5FA",
@@ -23,8 +13,6 @@ const CATEGORY_ACCENTS: Record<string, string> = {
   midLuxury: "#C9A84C",
   importAuction: "#C9A84C",
 };
-
-type CategoryKey = keyof typeof CATEGORY_ICONS;
 
 const containerVariants: Variants = {
   hidden: {},
@@ -45,7 +33,9 @@ const CarCategoriesSection = ({ dict }: DictProps) => {
   const isInView = useInView(sectionRef, { once: true, margin: "-80px" });
 
   const categories = dict.home.carCategories.categories;
-  const categoryKeys = Object.keys(categories) as CategoryKey[];
+  const categoryKeys = Object.keys(categories) as Array<
+    keyof typeof categories
+  >;
 
   return (
     <section
@@ -88,9 +78,8 @@ const CarCategoriesSection = ({ dict }: DictProps) => {
           animate={isInView ? "visible" : "hidden"}
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-4"
         >
-          {categoryKeys.map((key) => {
+          {categoryKeys.map((key, index) => {
             const category = categories[key];
-            const Icon = CATEGORY_ICONS[key];
             const accent = CATEGORY_ACCENTS[key];
 
             const colSpanClass =
@@ -106,10 +95,9 @@ const CarCategoriesSection = ({ dict }: DictProps) => {
               >
                 <CategoryCard
                   category={category}
-                  Icon={Icon}
                   accent={accent}
                   cardKey={key}
-                  categoryIcons={CATEGORY_ICONS}
+                  index={index}
                 />
               </motion.div>
             );

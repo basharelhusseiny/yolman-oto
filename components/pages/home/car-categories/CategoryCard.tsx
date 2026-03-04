@@ -1,4 +1,5 @@
 import { ArrowUpRight } from "lucide-react";
+import Image from "next/image";
 
 interface CardProps {
   category: {
@@ -6,20 +7,14 @@ interface CardProps {
     description: string;
     features: string[];
     sources?: string[];
+    img: string;
   };
-  categoryIcons: Record<string, React.ElementType>;
-  Icon: React.ElementType;
   accent: string;
   cardKey: string;
+  index: number;
 }
 
-const CategoryCard = ({
-  categoryIcons,
-  category,
-  Icon,
-  accent,
-  cardKey,
-}: CardProps) => {
+const CategoryCard = ({ category, accent, cardKey, index }: CardProps) => {
   const isAuction = cardKey === "importAuction";
 
   return (
@@ -50,14 +45,19 @@ const CategoryCard = ({
         <div className="flex items-start justify-between mb-6">
           {/* Icon pill */}
           <div
-            className="flex items-center justify-center w-12 h-12 rounded-xl transition-transform duration-300 group-hover:scale-110"
+            className="flex items-center justify-center w-18 h-18 rounded-xl transition-transform duration-300 group-hover:scale-110 overflow-hidden relative"
             style={{
               background: `${accent}15`,
               border: `1px solid ${accent}25`,
-              color: accent,
             }}
           >
-            <Icon size={22} strokeWidth={1.5} />
+            <Image
+              src={category.img}
+              alt={category.title}
+              width={60}
+              height={60}
+              className="w-full h-full object-cover"
+            />
           </div>
 
           {/* Arrow — appears on hover */}
@@ -74,10 +74,7 @@ const CategoryCard = ({
           className="text-[11px] font-semibold tracking-[0.15em] uppercase mb-2"
           style={{ color: `${accent}80` }}
         >
-          {String(Object.keys(categoryIcons).indexOf(cardKey) + 1).padStart(
-            2,
-            "0",
-          )}
+          {String(index + 1).padStart(2, "0")}
         </span>
 
         {/* Title */}
