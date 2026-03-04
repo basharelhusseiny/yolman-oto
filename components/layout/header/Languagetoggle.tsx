@@ -79,7 +79,7 @@ const LanguageToggle = ({ locale }: { locale: Locale }) => {
             exit={{ opacity: 0, scale: 0.92, y: -8 }}
             transition={{ duration: 0.2, ease: [0.16, 1, 0.3, 1] }}
             // Position: open downward and align to end (right in LTR, left in RTL)
-            className="absolute top-[calc(100%+10px)] -inset-e-14 sm:inset-e-0 z-50 min-w-[150px]
+            className="absolute top-[calc(100%+10px)] z-50 min-w-[150px]
               bg-slate-900/90 backdrop-blur-xl
               border border-white/10 rounded-2xl
               shadow-[0_8px_32px_rgba(0,0,0,0.4),0_0_0_1px_rgba(201,168,76,0.15)]

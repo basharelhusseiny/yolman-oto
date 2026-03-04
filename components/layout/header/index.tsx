@@ -36,7 +36,7 @@ const Header = ({ dict, locale }: DictProps) => {
             : "bg-[#091a35] border-b border-[#C9A84C]/50"
         }`}
       >
-        <div className="container mx-auto h-full px-4 sm:px-6 flex items-center justify-between gap-4">
+        <div className="container mx-auto h-full px-4 sm:px-6 flex flex-row-reverse items-center justify-between gap-4">
           {/* ── Logo ── */}
           <Link
             href={`/${locale}`}

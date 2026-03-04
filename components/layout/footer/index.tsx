@@ -206,7 +206,7 @@ const Footer = ({ dict }: DictProps) => {
                 >
                   <MapPin
                     size={18}
-                    className="text-[#C9A84C]"
+                    className="text-[#C9A84C] group-hover:text-white transition-colors"
                     strokeWidth={1.8}
                   />
                 </div>
@@ -230,7 +230,7 @@ const Footer = ({ dict }: DictProps) => {
                   >
                     <Phone
                       size={18}
-                      className="text-[#C9A84C] group-hover:text-[#060E1C] transition-colors"
+                      className="text-[#C9A84C] group-hover:text-white transition-colors"
                       strokeWidth={1.8}
                     />
                   </div>
@@ -258,13 +258,18 @@ const Footer = ({ dict }: DictProps) => {
                   >
                     <Mail
                       size={18}
-                      className="text-[#C9A84C] group-hover:text-[#060E1C] transition-colors"
+                      className="text-[#C9A84C] group-hover:text-white transition-colors"
                       strokeWidth={1.8}
                     />
                   </div>
-                  <span className="text-white/50 group-hover:text-white transition-colors">
-                    {fDict.contactInfo.email}
-                  </span>
+                  <div className="flex flex-col">
+                    <span className="text-white/50 group-hover:text-white transition-colors">
+                      {fDict.contactInfo.email}
+                    </span>
+                    <span className="text-white/50 group-hover:text-white transition-colors">
+                      Yolmanoto@gmail.com
+                    </span>
+                  </div>
                 </a>
               </li>
             </ul>

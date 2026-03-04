@@ -63,7 +63,7 @@ const HeroSection = ({ dict }: DictProps) => {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Link
-                href="#our-cars"
+                href="/our-cars"
                 className="group relative inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl font-bold text-[#091931] text-sm uppercase tracking-widest overflow-hidden transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_8px_30px_rgba(201,168,76,0.4)]"
                 style={{
                   background:
@@ -74,7 +74,8 @@ const HeroSection = ({ dict }: DictProps) => {
                 <ArrowLeft className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1 ltr:rotate-180" />
               </Link>
               <Link
-                href="#contact"
+                href="https://wa.me/+96893378786"
+                target="_blank"
                 className="inline-flex items-center justify-center px-8 py-4 rounded-xl font-semibold text-white/80 text-sm uppercase tracking-widest border border-white/15 hover:border-[#C9A84C]/50 hover:text-white hover:bg-white/5 transition-all duration-300"
               >
                 {dict.home.hero.secondaryButton}
