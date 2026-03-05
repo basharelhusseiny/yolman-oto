@@ -3,33 +3,13 @@
 import { DictProps } from "@/types/constants";
 import Image from "next/image";
 import Link from "next/link";
-import {
-  Phone,
-  Mail,
-  MapPin,
-  Facebook,
-  Instagram,
-  ArrowUpRight,
-} from "lucide-react";
+import { Phone, Mail, MapPin, ArrowUpRight } from "lucide-react";
 import { Dictionary } from "@/dictionaries";
-import { NAV_LINKS } from "@/constants";
+import { NAV_LINKS, SOCIAL_LINKS } from "@/constants";
 
 const Footer = ({ dict }: DictProps) => {
   const fDict = (dict as Dictionary).footer;
   if (!fDict) return null;
-
-  const socials = [
-    {
-      icon: Facebook,
-      label: "Facebook",
-      href: "https://www.facebook.com/otoyolman",
-    },
-    {
-      icon: Instagram,
-      label: "Instagram",
-      href: "https://www.instagram.com/otoyolman",
-    },
-  ];
 
   return (
     <footer className="relative bg-[#04080F] overflow-hidden z-10">
@@ -125,10 +105,11 @@ const Footer = ({ dict }: DictProps) => {
                 {fDict.socials}
               </p>
               <div className="flex items-center gap-3">
-                {socials.map(({ icon: Icon, label, href }) => (
+                {SOCIAL_LINKS.map(({ icon: Icon, label, href }) => (
                   <a
                     key={label}
                     href={href}
+                    target="_blank"
                     aria-label={label}
                     className="group relative flex items-center justify-center w-12 h-12 rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-1"
                     style={{

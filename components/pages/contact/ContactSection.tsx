@@ -6,8 +6,6 @@ import {
   MapPin,
   Phone,
   Mail,
-  Facebook,
-  Instagram,
   Send,
   Loader2,
   CheckCircle2,
@@ -16,6 +14,7 @@ import {
   Car,
   ShieldCheck,
 } from "lucide-react";
+import { SOCIAL_LINKS } from "@/constants";
 
 interface Props {
   dict: Dictionary;
@@ -228,16 +227,7 @@ export const ContactSection = ({ dict }: Props) => {
               </p>
               <div className="h-px flex-1 bg-linear-to-r from-white/10 to-transparent" />
               <div className="flex gap-3">
-                {[
-                  {
-                    icon: Facebook,
-                    href: "https://www.facebook.com/otoyolman",
-                  },
-                  {
-                    icon: Instagram,
-                    href: "https://www.instagram.com/otoyolman",
-                  },
-                ].map(({ icon: Icon, href }, i) => (
+                {SOCIAL_LINKS.map(({ icon: Icon, href }, i) => (
                   <a
                     key={i}
                     href={href}
